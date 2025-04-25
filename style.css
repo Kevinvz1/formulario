@@ -1,0 +1,47 @@
+body{
+    background-image: url(/img/fondo-hexagonal.webp);
+    background-size: cover;
+    font-family: arial, sans-serif;
+    background-color: rgb(2, 150, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+input{
+    border-color:gold;
+    border-width: 4px;
+}
+input:focus{
+    border-color: aqua;
+    outline: none;
+    border-width: 4px;
+    
+}
+select{
+    border-color:aqua;
+    border-width: 4px;
+}
+select:focus{
+    border-color: aqua;
+    border-width: 4px;
+}
+div{
+    font-style: color green;
+    background-image: url(/img/definitiva.webp);
+    background-size: cover;
+
+}
+h1::before{
+    content: "😊";
+}
+
+.img{
+    border-radius: 50px;
+}
+
+button{
+    width:60px;
+    border:40px;
+}
