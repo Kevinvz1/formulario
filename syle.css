@@ -1,0 +1,23 @@
+form {
+border-radius: 20px;
+background-color: #00ff80;
+padding: 20px;
+margin: 20px;
+justify-content: center;
+align-items: center;
+background-image: url(  /form/kimg/images\ 0.jpg);
+background-size: cover;
+background-position: center;
+color : #00ff2a;
+}
+.form::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0);  
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+    
